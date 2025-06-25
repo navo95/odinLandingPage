@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>the odin landingpage project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            
+            .header{
+                font:roboto;
+                display:flex;
+                justify-content:space-between;
+                background:#1F2937;
+                color:#F9FAF8;
+                font-size:24px;
+            }
+            .headerthree{
+                display:flex;
+                color:#E5E7EB;
+                font-size:18x;
+            }
+            ul{
+                font:roboto;
+                display:flex;
+                list-style-type:none;
+                font-size:18px;
+                gap:20px;
+                position:relative;
+                right:250px;
+            }
+            .headertwo{
+                position:relative;
+                left:200px;
+                font-weight:900;
+            }
+            a{
+                text-decoration:none;
+                color:#E5E7EB;
+            }
+            a:hover{
+                font-size:larger;
+                color:green;
+            }
+            .secondheader{
+                background:#1F2937;
+            }
+            .text1.one{
+                font-size:48px;
+                font-weight:900;
+                font-family:roboto;
+                color:#F9FAF8;
+            }
+            .text1.two{
+                color:#E5E7EB;
+                font-size:18px;
+            }
+            .button-sign{
+                color:#f9faf8;
+                font-weight:900;
+                font-size:18px;
+                background:#3882F6;
+                padding:0;
+                margin:0;
+                border:none;
+                outline:none;
+                box-shadow:none;
+                padding-left:18px;
+                padding-right:18px;
+                padding-top:8px;
+                padding-bottom:8px;
+                border-radius:11px;
+            }
+            .right{
+                background:#E5E7EB;
+                width:fit-content;
+                background:rgba(102, 108, 114, 255);
+                display:flex;
+                justify-content:space-between;
+                
+                align-items:center;
+                justify-content:center;
+                color:#E5E7EB;
+                font-size:15px;
+                font-weight:900;
+            }
+            .secondheader{
+                display:flex;
+                justify-content:space-between;
+            }
+            .right{
+                position:relative;
+                padding-left:150px;
+                padding-right:150px;
+                right:250px;
+            }
+            .left{
+                position:relative;
+                left:200px;
+            }
+            .top-header{
+                display:flex;
+                flex-direction:column;
+                background:#1F2937;
+            }
+            .header{
+                padding-bottom:100px;
+            }
+            .secondheader{
+                padding-bottom:100px;
+            }
+            .head-title{
+                text-align:center;
+                font-size:36px;
+                color:#1F2937;
+                font-weight:900;
+                padding-top:40px;
+            }
+            .boxes{
+                margin-top:60px;
+                
+                display:flex;
+                justify-content:center;
+            }
+            .box{
+                max-width:fit-content;
+            }
+            .boxes{
+                gap:20px;
+            }
+            .box-one{
+                box-sizing:border-box;
+                max-width:cover;
+                height:150px;
+                border:2px solid blue;
+                border-radius:12px;
+            }
+            .box-two{
+                box-sizing:border-box;
+                max-width:cover;
+                height:150px;
+                border:2px solid blue;
+                border-radius:12px;
+            }
+            .box-three{
+                box-sizing:border-box;
+                max-width:cover;
+                height:150px;
+                border:2px solid blue;
+                border-radius:12px;
+            }
+            .box-four{
+                
+                box-sizing:border-box;
+                max-width:cover;
+                height:150px;
+                border:2px solid blue;
+                border-radius:12px;
+            }
+            .boxes{
+                margin-bottom:100px;
+            }
+            .large-box{
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                background:#E5E7EB;
+                flex-direction:column;
+                padding-top:80px;
+                padding-bottom:80px;
+            }
+            .text-author{
+                font-style:italic;
+                font-size:26px;
+                width:100%;
+                display:flex;
+                justify-content:center;
+                font-weight:200;
+            }
+            .author-text{
+            
+                font-size:16px;
+                font-weight:700;
+                position:relative;
+                left:62%;
+
+            }
+            .large-box{
+                margin-bottom:60px;
+            }
+               .caution{
+                display:flex;
+                justify-content:center;
+
+            }
+            .caution-text{
+                display:flex;
+                background:#3882F6;
+                max-width:fit-content;
+            }
+            .caution-text1{
+                font-size:19px;
+                color:aliceblue;
+                font-weight:800;
+                font-style:monospace;
+
+            }
+            .caution-text2{
+                font-size:12px;
+                color:white;
+
+            }
+
+            button.button-signup{
+                box-sizing:border-box;
+                padding-left:20px;
+                padding-right:20px;
+                height:33px;
+                border-radius:10px;
+                color:white;
+                border:2px solid white;
+                outline:none;
+                box-shadow:none;
+                background:transparent;
+                font-weight:800;
+          
+            }
+            .caution-text{
+                align-items:center;
+                
+                
+            }
+            .caution-text{
+                gap:120px;
+                box-sizing:border-box;
+                height:100px;
+                padding-left:80px;
+                padding-right:80px;
+                border-radius:8px;
+
+            }
+            footer{
+                display:flex;
+                justify-content:center;
+                box-sizing:border-box;
+                height:100px;
+                background:#1F2937;
+                color:white;
+                align-items:center;
+            }
+            .caution{
+                margin-top:100px;
+                margin-bottom:100px;
+            }
+            
+
+
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="top-header">
+                <div class="header">
+                    <div class="headertwo">
+                        Header Logo
+                    </div>
+                    <div class="headerthree">
+                        <ul>
+                        <li><a href="#">link-one</a></li>
+                        <li><a href="#">link-two</a></li>
+                        <li><a href="#">link-three</a></li>  
+                        </ul>
+                    </div>
+                </div>
+                <div class="secondheader">
+                    <div class="left">
+                        <div class="text1">
+                            <div class="text1 one">This website is<br>awesome</div>
+                        
+                            <div class="text1 two">this website has some subtext that goes here under the<br> main title,it is a smaller font and the color is lower<br> font</div>
+                        </div>
+                        <button class="button-sign">
+                            signup
+                        </button>
+                    </div>
+                    <div class="right">
+                        this is the placeholder for an image
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="head-title"> 
+                    Some Random Information
+                </div>
+                <div class="boxes">
+                    <div class="box box1">
+                        <div class="box-one">
+
+                        </div>
+                        <div class="text-one">
+                            this is some subtext<br> under the illustration<br> of an image
+                        </div>
+                    </div>
+                    <div class=" box box2">
+                        <div class="box-two">
+
+                        </div>
+                        <div class="text-two">
+                            this is some subtext<br> under the illustration <br>of an image
+                        </div>
+                    </div>
+                    <div class="box box3">
+                        <div class="box-three">
+
+                        </div>
+                        <div class="text-three">
+                            this is some subtext<br> under the illustration <br>of an image
+                        </div>
+                    </div>
+                    <div class="box box4">
+                        <div class="box-four">
+
+                        </div>
+                        <div class="text-four">
+                            this is some subtext <br>under the illustration <br>of an image
+                        </div>
+                    </div>
+                </div>
+                <div class="large-box">
+                    <div class="text-author">
+                        this is an inspiring quote and an testimonial from a<br> customer.maybe it is just filling up space or maybe<br> people are actually reading it .all i know <br>is that it looks nice and i love it!.
+                    </div>
+                    <div class="author-text">
+                        -Thor, god of thunder
+                    </div>
+                </div>
+                <div class="caution">
+                    <div class="caution-text">
+                        <div class="another-caution">
+                            <div class="caution-text1">
+                                Call up it's action time!
+                            </div>
+                            <div class="caution-text2">
+                                sign up for our product by clicking on our product right below here!
+                            </div>
+                        </div>
+                        <button class="button-signup">
+                            signup
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+                copyright@ the odin project
+            </footer>
+
+        </div>
+
+    </body>
+</html>
